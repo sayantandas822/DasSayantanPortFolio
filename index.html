@@ -1,0 +1,153 @@
+<!DOCTYPE html>
+<html lang="en">
+<head>
+	<meta charset="utf-8">
+	<meta name="viewport" content="width=device-width, initial-scale=1.0">
+	<title>Sayantan Das Portfolio</title>
+	<link rel="stylesheet" type="text/css" href="https://cdnjs.cloudflare.com/ajax/libs/normalize/8.0.1/normalize.min.css">
+	<link rel="stylesheet" type="text/css" href="https://cdnjs.cloudflare.com/ajax/libs/font-awesome/5.15.3/css/all.min.css">
+	<link rel="preconnect" href="https://fonts.gstatic.com">
+	<link href="https://fonts.googleapis.com/css2?family=Source+Sans+Pro:wght@300&display=swap" rel="stylesheet">
+	<link rel="stylesheet" type="text/css" href="myportfoliostyle.css">
+</head>
+<body>
+	<header>
+		<div class="logo">
+			<img src="mylogo.jpeg" alt="This is my logo">
+		</div>
+		<button class="nav-toggle" aria-label="toggle navigation">
+			<span class="hamburger"></span>
+		</button>
+		<nav class="nav">
+			<ul class="nav__list">
+				<li class="nav__item"><a href="#home" class="nav__link">Home</a> </li>
+				<li class="nav__item"><a href="#services" class="nav__link">My Skills</a> </li>
+				<li class="nav__item"><a href="#about" class="nav__link">About Me </a></li>
+				<li class="nav__item"><a href="#work" class="nav__link">My Work</a></li>
+			</ul>
+		</nav>
+	</header>
+	<!-- This is the intro section-->
+	<section class="intro" id="home">
+		<h1 class="section__title section__title--intro">
+			Hello I am <strong> Sayantan Das</strong>
+		</h1>
+			<p class="section__subtitle section__subtitle--intro">Web Developer</p>
+			<img src="me.jpeg" alt="this is my picture:)" class="intro__img">
+	</section>
+
+	<!--These are my services-->
+	<section class="my-services" id="services">
+		<h2 class="section__title section__title--services">What I do</h2>
+		<div class="services">
+			<div class="service">
+				<h3>Development</h3>
+				<p>
+					I am a front-end web developer. I am quite new to the field. 
+					I spend my time developing websites most of the time when I am up for development. I mainly use HTML, CSS and Javascript for it. Currently, I am learning NodeJS, React and MongoDB.
+				</p>
+			</div> <!--Service 1-->
+
+			<div class="service">
+				<h3>Competetive Programmer</h3>
+				<p> I am a competetive programmer. I am quite new to the field. I use C++ for it. I compete on codechef, Codeforces, Atcoder
+					Leetcode etc. My codechef rating is 1780 and my codeforces rating is 1330.
+				</p>
+			</div> <!--Service 2-->
+
+			<div class="service">
+				<h3>C, C++, HTML, CSS, Javascript</h3>
+				<p> I am decent at C and C++. I am at intermediate level in HTML, CSS and Javascript.
+					I am a begineer at python and I am trying to build ML projects using it and then collabing
+					them with some web platforms.
+				</p>
+			</div> <!--service 3-->
+
+		</div>
+		<a href="#work" class="btn">My Work</a>
+	</section>
+
+	<!--About me-->
+	<section class="about-me">
+		<h2 class="section__title section__title--about">About Me</h2>
+		<p class="section__subtitle section__subtitle--about">Undergraduate at IIT ISM Dhanbad</p>
+
+		<div class="about-me__body">
+			<p>I completed my class 10th form WBBSE in 2017 with a state rank 19th and class 12th form
+				WBCHSE with a state rank 14th in 2019 and district rank 9. Currently I am studying in 
+				IIT ISM Dhanbad(2023). I am pursuing Bachelor of technology in Electronics and Communication
+				Engineering.
+			</p>
+			<p>My hobby is playing guitar. I also love to play chess and football. I have a FIDE rating 1510
+				in chess.
+			</p>
+		</div>
+		<img src="me.jpeg" alt="Its an about me Img" class="about-me__img"> <!--I need an image here-->
+	</section>
+	<!--About Me done-->
+	<section class="my-work" id="work">
+		<h2 class="section__title section__title--work" >My Work</h2>
+		<p class="section__subtitle section__subtitle--work">My Web and Machine Learning Projects</p>
+		<div class="portfolio">
+			<!--portfolio item 01-->
+			<a href="#" class="portfolio__item">
+				<img src="work1.png" class="portfolio__img">
+			</a>
+
+
+			<!--portfolio item 02-->
+			<a href="#" class="portfolio__item">
+				<img src="work2.png" class="portfolio__img" alt="portfolio__img">
+			</a>
+
+
+			<!--portfolio item 03
+			<a href="#" class="portfolio__item">
+				<img src="lib.jpg" alt="portfolio__img" class="portfolio__img">
+			</a>-->
+
+			<!--portfolio item 04
+			<a href="#" class="portfolio__item">
+				<img src="lib.jpg" alt="portfolio__img" class="portfolio__img">
+			</a>-->
+			<!--portfolio item 05
+			<a href="#" class="portfolio__item">
+				<img src="lib.jpg" alt="portfolio__img" class="portfolio__img">
+			</a>-->
+			<!--portfolio item 06
+			<a href="#" class="portfolio__item">
+				<img src="lib.jpg" alt="portfolio__img" class="portfolio__img">
+			</a>-->
+			<!--portfolio item 07
+			<a href="#" class="portfolio__item">
+				<img src="lib.jpg" alt="portfolio__img" class="portfolio__img">
+			</a>-->
+			<!--portfolio item 08
+			<a href="#" class="portfolio__item">
+				<img src="lib.jpg" alt="portfolio__img" class="portfolio__img">
+			</a>-->
+		</div>
+	</section>
+
+	<!--Yeah This is my footer-->
+		<footer class="footer">
+			<a href="mailto:founditoutbychance" class="footer-link" style="outline: none">hello@das.sayantan</a>
+			<ul class="social-list">
+				<li class="social-list__item">
+					<a class="social-list__link" href="www.google.com"><i class="fab fa-twitter"></i></a>
+				</li>
+				<li class="social-list__item">
+					<a class="social-list__link" href="www.google.com"><i class="fab fa-facebook-messenger"></i></a>
+				</li>
+				<li class="social-list__item">
+					<a class="social-list__link" href="www.google.com"><i class="fab fa-instagram"></i></a>
+				</li>
+				<li class="social-list__item">
+					<a class="social-list__link" href="www.google.com"><i class="fab fa-github"></i></a>
+				</li>
+			</ul>
+		</footer>
+
+		<script src="myportfoliojs.js"></script>
+</body>
+</html>
